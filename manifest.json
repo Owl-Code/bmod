@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "Bee Mod",
+    "namespace": "b_mod",
+    "version": 3
+  },
+  "server_init_script": "file(b_mod_server)",
+  "default_locale": "en",
+  "aliases": {
+    "bee_hive": "file(jobs/trapper/bee_hive/bee_hive.json)",
+    "critters:bee": "file(entities/critters/bee)"
+  },
+  "mixintos": {},
+  "overrides": {},
+  "components": {},
+  "controllers": {}
+}
