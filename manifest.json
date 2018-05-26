@@ -7,11 +7,15 @@
   "server_init_script": "file(b_mod_server)",
   "default_locale": "en",
   "aliases": {
-    "bee_hive": "file(jobs/trapper/bee_hive/bee_hive.json)",
-    "critters:bee": "file(entities/critters/bee)"
+    "bee_hive": "file(jobs/trapper/bee_hive)",
+    
+    "critters:bee": "file(entities/critters/bee)",
+    "honeypot": "file(entities/critters/bee/honeypot)"
   },
   "mixintos": {},
-  "overrides": {},
+  "overrides": {
+    "/stonehearth/data/horde/particles/bees/bees.cubemitter.json": "file(data/horde/particles/bees/bees.cubemitter.json)"
+  },
   "components": {},
   "controllers": {}
 }
