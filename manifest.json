@@ -8,14 +8,14 @@
   "default_locale": "en",
   "aliases": {
     "bee_hive": "file(jobs/trapper/bee_hive)",
+    "bee": "file(entities/critters/bee)",
+	  "food:honey:honey"        		: "file(entities/food/honey/honey/honey.json)",
+	  "food:honey:honey_serving"      	: "file(entities/food/honey/honey_serving/honey_serving.json)"
     
-    "critters:bee": "file(entities/critters/bee)",
-    "honeypot": "file(entities/critters/bee/honeypot)"
   },
-  "mixintos": {},
-  "overrides": {
-    "/stonehearth/data/horde/particles/bees/bees.cubemitter.json": "file(data/horde/particles/bees/bees.cubemitter.json)"
-  },
+  "mixintos": {
+	  "stonehearth/jobs/trapper/trapping_grounds/trapping_grounds.json"	: "b_mod/jobs/trapper/trapping_grounds/trapping_grounds.json"},
+  "overrides": {},
   "components": {},
   "controllers": {}
 }
