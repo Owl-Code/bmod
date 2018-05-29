@@ -1,7 +1,7 @@
 local TrapperClass = require 'stonehearth.jobs.trapper'
 
 function TrapperClass:should_tame(target)
-  if target:get_uri() == "b_mod:bee" then
+  if target:get_uri() == "b_mod:trapper:bee_hive" then
     return false
   end
   if not self:has_perk('trapper_natural_empathy_1') then

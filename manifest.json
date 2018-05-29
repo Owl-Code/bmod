@@ -7,7 +7,7 @@
   "server_init_script": "file(b_mod_server)",
   "default_locale": "en",
   "aliases": {
-    "bee_hive": "file(jobs/trapper/bee_hive)",
+    "trapper:bee_hive": "file(jobs/trapper/bee_hive)",
     "bee": "file(entities/critters/bee)",
 	  "food:honey:honey"        		: "file(entities/food/honey/honey/honey.json)",
 	  "food:honey:honey_serving"      	: "file(entities/food/honey/honey_serving/honey_serving.json)"
